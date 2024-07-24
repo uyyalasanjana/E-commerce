@@ -1,0 +1,1592 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="project11.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="sectionHome">
+        <div class="bg">
+            <div class="bgs"></div>
+            <div class="bg1">
+            <img src="https://cdn.picodi.com/in/shop/thumb_300/nykaa-fashion_646_001_1.png" class="img1">
+            <button class="btn1"  onclick="display('sectionFavouritePlaces')">Women </button>
+            <button class="btn1" onclick="display('sectionFavouritePlaces1')">Men</button>
+            <button class="btn1" onclick="display('sectionFavouritePlaces2')">Kids</button>
+            <button class="btn1">Home</button>
+            <button class="btn1">Tech</button>
+            <button class="btn1">All Brands</button>
+            <button class="btn1"> More</button>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search icon1" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg>
+            <input type="search" placeholder="Search for products,styles,branch    "/>
+        
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person icon2" viewBox="0 0 16 16">
+                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart icon2" viewBox="0 0 16 16">
+                <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag icon2" viewBox="0 0 16 16">
+                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                </svg>
+                
+                <div class="bg2">
+                <button class="btn2">What's New <img src="https://icons.veryicon.com/png/o/internet--web/prejudice/down-arrow-5.png" class="img2"></button>
+                <button class="btn2">Sale <img src="https://icons.veryicon.com/png/o/internet--web/prejudice/down-arrow-5.png" class="img2"></button>
+                <button class="btn2">Indian Wear <img src="https://icons.veryicon.com/png/o/internet--web/prejudice/down-arrow-5.png" class="img2"></button>
+                <button class="btn2">Western  <img src="https://icons.veryicon.com/png/o/internet--web/prejudice/down-arrow-5.png" class="img2"></button>
+                <button class="btn2">Bags<img src="https://icons.veryicon.com/png/o/internet--web/prejudice/down-arrow-5.png" class="img2"></button>
+                <button class="btn2">Jewellery <img src="https://icons.veryicon.com/png/o/internet--web/prejudice/down-arrow-5.png" class="img2"></button>
+                <button class="btn2">FootWear <img src="https://icons.veryicon.com/png/o/internet--web/prejudice/down-arrow-5.png" class="img2"></button>
+                <button class="btn2">Lingerie <img src="https://icons.veryicon.com/png/o/internet--web/prejudice/down-arrow-5.png" class="img2"></button>
+                <button class="btn2">Sports<img src="https://icons.veryicon.com/png/o/internet--web/prejudice/down-arrow-5.png" class="img2"></button>
+                </div>
+
+            </div>
+    
+
+        <div class="bg3">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/a79bd998154237.5ed5f5b76397e.jpg"
+                class="d-block w-100 img4"
+                alt="..."
+                />
+            </div>
+            <div class="carousel-item">
+                <img
+                src="https://couponswala.com/blog/wp-content/uploads/2022/08/nykaa-dress-online-shopping-1.jpg"
+                class="d-block w-100 img4"
+                alt="..."
+                />
+            </div>
+            <div class="carousel-item">
+                <img
+                src="https://imgshop.lbb.in/rewards/v3/redirect-matched-web-v2.png"
+                class="d-block w-100 img4"
+                alt="..."
+                />
+            </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+            </div>
+            </div>
+            
+            <br>
+                    
+            <div class="d-flex flex-row justify-content-start">
+
+                <div >
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYFEKymyoOFreR9ScNv1GAUygKwkbvtEaMXQ&usqp=CAU" class="img5">
+                    <h1 class="head1">Sports Wear</h1>
+                </div>
+
+                <div >
+                    <img src="https://cdn.shopify.com/s/files/1/0752/6435/products/IMG_0043_4d81c6fa-5783-4baa-81f2-43b183e05466_900x.jpg?v=1674813294" class="img5">
+                    <h1 class="head1" onclick="display('sectionFavouritePlaces1')">Mens</h1>
+                </div>
+
+                <div >
+                    <img src="https://cdn.fcglcdn.com/brainbees/images/products/438x531/11601670a.webp" class="img5">
+                    <h1 class="head1" onclick="display('sectionFavouritePlaces2')">Kids</h1>
+                </div>
+
+                <div >
+                    <img src="https://images-static.nykaa.com/uploads/9c93b8df-20d2-4536-bd97-a5cc866c00ec.jpg?tr=w-342.85714285714283,cm-pad_resize" class="img5">
+                    <h1 class="head1">Western Wear</h1>
+                </div>
+
+                <div >
+                    <img src="https://cdn.shopify.com/s/files/1/0507/9865/7726/files/theweddingcorp_2048x2048.png?v=1676527832" class="img5">
+                    <h1 class="head1">Jewellery</h1>
+                </div>
+
+                <div >
+                    <img src="https://5.imimg.com/data5/SELLER/Default/2023/4/300633089/DY/CC/CW/26140935/heavy-patola-silk-indian-wear-saree-500x500.jpg" class="img5">
+                    <h1 class="head1">Indian Wear</h1>
+                </div>
+
+                <div >
+                    <img src="https://images-cdn.ubuy.co.in/65839e017e8edc230452c840-trendy-queen-hoodies-for-women-full-zip.jpg" class="img5">
+                    <h1 class="head1">Winter Wear</h1>
+                </div>
+
+
+                <div >
+                    <img src="https://assets.ajio.com/medias/sys_master/root/20211005/2kgS/615c78e8aeb2692b85ae80bc/-473Wx593H-460979554-beige-MODEL.jpg" class="img5">
+                    <h1 class="head1">FootWear</h1>
+                </div>
+
+                <div >
+                    <img src="https://m.media-amazon.com/images/I/71K2DBFeGHL._AC_UY1000_.jpg" class="img5">
+                    <h1 class="head1">Bags</h1>
+                </div>
+
+                <div >
+                    <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/1620103/2020/11/17/e534cf64-eb40-495e-a44f-4d6d31cced0c1605623766871-Daniel-Klein-Premium-Women-Silver-Toned-Dial-Watch-DK11138-2-1.jpg" class="img5">
+                    <h1 class="head1">Watches</h1>
+                </div>
+
+                <div >
+                    <img src="https://assets-global.website-files.com/606e615a0e2589f2e7699556/633727b9e1ac594f3530f33f_revolve-advertising-case-study-header-img.webp" class="img5">
+                    <h1 class="head1">Revolve</h1>
+                </div>
+
+                <div >
+                    <img src="https://imageio.forbes.com/specials-images/imageserve/64a1ed46b53bd3db63aef4a8/Apple-AirPods-Pro/0x0.jpg?format=jpg&crop=3007,2005,x0,y107,safe&width=960" class="img5">
+                    <h1 class="head1">Tech</h1>
+                </div>
+            </div>
+
+            <br>
+            <div  class="d-flex flex-row justify-content-start ">
+                
+
+
+                <div class="bgss">
+            
+                    <div class="card-body">
+                    <h1 class="head2">Global Store</h1>
+                    <p class="para1">Your one-stop shop for the latest trends from labels,around the worlds.</p>
+                    </div>
+                    <img class="img6" src="https://www.aneeshagarwaalofficial.com/cdn/shop/products/anac100148_1.jpg?v=1683532340&width=1080" alt="Card image">
+                </div>
+
+
+                <div class="bgss">
+            
+                    <div class="card-body">
+                    <h1 class="head2">House of Nykaa Fashion</h1>
+                    <p class="para1">Explore the latest collections from our most loves in house labels</p>
+                    </div>
+                    <img class="img6" src="https://images-static.nykaa.com/nykdesignstudio-images/pub/media/about-us/The-Nykaa-fashion-experience.gif" alt="Card image">
+                </div>
+
+                <div class="bgss">
+            
+                    <div class="card-body">
+                    <h1 class="head2">REVOLVE</h1>
+                    <p class="para1">shop classic neutrals from 700+ celebrity approves brands.</p>
+                    </div>
+                    <img class="img6 " src="https://bangaloretodays.files.wordpress.com/2022/07/rsvp-assorted-styles_nykaa-fashion.jpeg?w=768" alt="Card image">
+
+                </div>
+
+                <div class="bgss">
+                
+                    <div class="card-body">
+                    <h1 class="head2">Traditional </h1>
+                    <p class="para1">Explore the latest collections of traditional wear.</p>
+                    </div>
+                    <img class="img6" src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/c/tr:w-270,/dcf8c26SGRJP-1897_1.jpg?rnd=20200526195200" alt="Card image">
+                </div>
+
+
+                <div class="bgss">
+            
+                    <div class="card-body">
+                    <h1 class="head2">Modern Wear </h1>
+                    <p class="para1">Explore the latest collections of Modern  wear.</p>
+                    </div>
+                    <img class="img6" src="https://img3.junaroad.com/uiproducts/20894848/pri_175_p-1707489566.jpg" alt="Card image">
+                </div>
+        
+        
+
+            </div>
+
+            <h1 class="head3">IN THE SPOTLIGHT</h1>
+            <h1 class="head4">Covetable finds this Week</h1>
+            <br>
+
+            <div  class="d-flex flex-row justify-content-start ">
+                
+                <div class="bgsss">
+                    <img class="img7" src="https://images.dsw.ca/is/image/dswca/DSW_230731_EditorialZone_SSBrands_3?impolicy=qlt-medium&imwidth=1011&imdensity=1" alt="Card image">
+                    
+                    <h1 class="head5">Up to 50% off</h1>  
+                </div>
+
+
+                <div class="bgsss">
+                    <img class="img7" src="https://rukminim2.flixcart.com/image/850/1000/l2z26q80/sandal/n/k/7/5-insta-38-shoetopia-black-original-image77n2ze58wym.jpeg?q=20&crop=false" alt="Card image">
+                    
+                    <h1 class="head5">Up to 50% off</h1>  
+                </div>
+
+
+
+                <div class="bgsss">
+                    <img class="img7" src="https://i.pinimg.com/originals/ae/8f/d4/ae8fd402e3f7548fcc029f9b56ebccbd.jpg" alt="Card image">
+                    
+                    <h1 class="head5">Up to 50% off </h1>   
+                </div>
+
+                
+                <div class="bgsss">
+                    <img class="img7" src="https://mallofswitzerland.ch/fileadmin/_processed_/1/e/csm_02-Mall-of-Switzerland_745x500_2_cfdcc0bf4c.jpg" alt="Card image">
+                    
+                    <h1 class="head5">Up to 60% off</h1>   
+                </div>
+
+                
+                <div class="bgsss">
+                    <img class="img7" src="https://xcdn.next.co.uk/Common/Items/Default/Default/ItemImages/Search/676/677919.jpg?im=Resize,width=350" alt="Card image">
+                    
+                    <h1 class="head5">Up to 70% off</h1>   
+                </div>
+
+                <div class="bgsss">
+                    <img class="img7" src="https://www.soch.com/media/wysiwyg/soch_red_dot_sale_og_banner.jpg" alt="Card image">
+                    
+                    <h1 class="head5">Up to 70% off</h1>   
+                </div>
+
+            </div>
+
+        <br>
+        <br>
+        <br>
+
+
+        <div  class="d-flex flex-row justify-content-start ">
+                
+            <div class="bgsss">
+            <img class="img7" src="https://bestmediainfo.com/uploads/2020/02/Kareena-Kapoor-Khan-The-New-Face-of-IMARA_6.jpg" alt="Card image">
+            
+            <h1 class="head5">Up to 50% off</h1>  
+            </div>
+
+            <div class="bgsss">
+            <img class="img7" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwCUiXWBsNETLspScufoLPEBrAx5wfdOLRow&usqp=CAU" alt="Card image">
+            
+            <h1 class="head5">Up to 50% off</h1>  
+            </div>
+
+
+            <div class="bgsss">
+            <img class="img7" src="https://images-static.nykaa.com/uploads/d311ef7b-76aa-40a6-8ccb-0366a5360c37.jpg?tr=w-300,cm-pad_resize" alt="Card image">
+            
+            <h1 class="head5">Up to 50% off </h1>   
+            </div>
+
+            
+            <div class="bgsss">
+            <img class="img7" src="https://www.molbhavkaro.com/blog/wp-content/uploads/2020/08/fab.jpg" alt="Card image">
+            
+            <h1 class="head5">Up to 60% off</h1>   
+            </div>
+
+            
+            <div class="bgsss">
+            <img class="img7" src="https://www.soch.com/media/wysiwyg/02_Main-Strip-Banner-Glimmer_Glam_MB.jpg" alt="Card image">
+            
+            <h1 class="head5">Up to 70% off</h1>   
+            </div>
+
+            <div class="bgsss">
+            <img class="img7" src="https://www.soch.com/media/wysiwyg/HB_banner_Mobile_18.jpg" alt="Card image">
+            
+            <h1 class="head5">Up to 50% off</h1>   
+            </div>
+
+            </div>
+
+
+        </br>
+        </br>
+        </br>
+
+
+
+        
+            <div  class="d-flex flex-row justify-content-start ">
+                    
+                <div class="fgs">
+                    <h1 class="head6">WHO ARE WE</h1>  
+                    <ol class="list1">
+                    <li>About Us</li>
+                    <li>Careers</li>
+                    <li>Press</li>
+                    </ol>
+    
+                </div>
+    
+    
+                <div class="fgs">
+                    <h1 class="head6">HELP</h1>  
+                    <ol class="list1">
+                    <li>Shipping & Return Policy</li>
+                    <li>Help Center</li>
+                    <li>Terms & C</li>
+                    </ol>
+    
+                </div>
+    
+                <div class="fgs">
+                    <br>
+                    <br>
+                    <ol class="list1">
+                    <li>Privacy Policy</li>
+                    <li>Responsible Disclosure</li>
+                    </ol>
+    
+                </div>
+    
+                <div class="fgs">
+                    <h1 class="head6">QUICKLINKS</h1>  
+                    <ol class="list1">
+                    <li>Offers</li>
+                    <li>Sitemap</li>
+                    <li>Style Files</li>
+                    </ol>
+    
+                </div>
+            </div>
+
+            <br>
+    
+            <div  class="d-flex flex-row justify-content-start ">
+                
+                <div class="fg"> 
+                    <h1 class="head5">WOMEN</h1>  
+                    <ol class="list">
+                    <li>women indian wear</li>
+                    <li>women western wear</li>
+                    <li>Bags</li>
+                    <li>Women's Footwear</li>
+                    <li>Women's Jewellery</li>
+                    <li>Lingerie</li>
+                    <li>Women's SportsWear</li>
+                    <li>Women's 'Sleep & lounge</li>
+                    <li>Women's Watches</li>
+                    <li>Fashion Accessories</li>
+                    </ol>
+                </div>
+
+
+                <div class="fg"> 
+                    <h1 class="head5">MEN</h1>  
+                    <ol class="list">
+                    <li>Topwear</li>
+                    <li>Bottomwear</li>
+                    <li>Ethnicwear</li>
+                    <li>Men's Footwear</li>
+                    <li>Men's Accessories</li>
+                    <li>innerwear&sleepwear</li>
+                    <li>Men's Watches</li>
+                    <li>Bags & Backpacks</li>
+                    <li>Athleisure</li>
+                    <li>Sports & Fitness</li>
+        
+                    </ol>
+
+                </div>
+
+
+
+                    <div class="fg"> 
+                        <h1 class="head5">KIDS </h1>  
+                        <ol class="list">
+                        <li>Kids Indianwear</li>
+                        <li>Kids Weasternwear</li>
+                        <li>Kids Footwear </li>
+                        <li>Kids Jewellery </li>
+                        <li>Feeding</li>
+                        <li>Kids Sportswear</li>
+                        <li>Kids Sleepwear</li>
+                        <li>Toys & Games</li>
+                        <li>Kids Accessories</li>
+                        </ol>
+                    </div>
+    
+    
+
+                    <div class="fg"> 
+                        <h1 class="head5">LUXE </h1>  
+                        <ol class="list">
+                        <li>Luxury Ethnic Wear</li>
+                        <li>Luxury Westernwear</li>
+                        <li>Luxury Footwear </li>
+                        <li>Luxury Bags </li>
+                        <li>Luxury Accessories</li>
+                        <li>Luxury Watches</li>
+                        <li>Luxury Home</li>
+                        <li>Summer Collections</li>
+                        <li>Luxury Dresses</li>
+                        </ol>
+                    </div>
+        
+
+    
+                    <div class="fg"> 
+                        <h1 class="head5">TOP BRANDS </h1>  
+                        <ol class="list">
+                        <li>Puma</li>
+                        <li>vero Moda</li>
+                        <li>Biba </li>
+                        <li>Forever New </li>
+                        <li>Skechers</li>
+                        <li>Fablestreet</li>
+                        <li>Autumnlane</li>
+                        <li>Cider</li>
+                        <li>Accessorize London</li>
+                        </ol>
+                    </div>
+
+
+
+                <div class="fg"> 
+                    <h1 class="head5">HOUSE OF NYKAA</h1>  
+                    <ol class="list">
+                    <li>Twenty Dresses By Nykaa Fashion</li>
+                    <li>Nykd by Nykaa</li>
+                    <li>RSVP by Nykaa Fashion </li>
+                    <li>Gajra Gang by Nykaa Fashion</li>
+                    <li>Likha By Nykaa Fashion</li>
+                    <li>Mixt by Nykaa Fashion</li>
+                    <li>IYKAA</li>
+                    <li>Kica</li>
+                    <li>Twig & Twine</li>
+                    <li>Gloot</li>
+        
+                    </ol>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionFavouritePlaces">
+
+
+        <div class="cg">
+            <div class="cgs"></div>
+  
+                      <div class="bg1">
+                          <img src="https://cdn.picodi.com/in/shop/thumb_300/nykaa-fashion_646_001_1.png" class="img1">
+                          <button class="btn1">Women</button>
+                          <button class="btn1" onclick="display('sectionFavouritePlaces1')" >Men</button>
+                          <button class="btn1"onclick="display('sectionFavouritePlaces2')">Kids</button>
+                          <button class="btn1">Home</button>
+                          <button class="btn1">Tech</button>
+                          <button class="btn1">All Brands</button>
+                          <button class="btn1"> More</button>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search icon1" viewBox="0 0 16 16">
+                              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                          </svg>
+                          <input type="search" placeholder="Search for products,styles,branch"/>
+                  
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person icon2" viewBox="0 0 16 16">
+                          <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+                          </svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart icon2" viewBox="0 0 16 16">
+                          <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                          </svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag icon2" viewBox="0 0 16 16">
+                          <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                          </svg>
+                      </div>
+  
+                      </br>
+                      </br>
+  
+  
+  
+                      <div class="d-flex flex-row justify-content-center">
+                          <div class="card">
+                              <img src="https://sonamenterprise.com/wp-content/uploads/2022/11/31386d4NYKFF_GAJRA00001377_4.webp" class="image">
+                              <p class="heads1">Gajra Gang</p>
+          
+                              <div class="justify-content-center">
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image1">
+                                  <p1>6800</p1>
+                              
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image2">
+                                  <p1 class="pp">8499</p1>
+          
+                              </div>
+      
+                              <div class="justify justify-content-start">
+                                  <button class="bt">Add to whishlist <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart icon21" viewBox="0 0 16 16">
+                                      <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                                      </svg></button>
+                                  <button class="bt">Add to bag    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag icon22" viewBox="0 0 16 16">
+                                      <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                                      </svg>  
+                                  </button>
+      
+                              </div>
+  
+                          </div>
+  
+  
+                          <div class="card">
+                              <img src="https://assets.ajio.com/medias/sys_master/root/20230621/JSXL/6492d34bd55b7d0c63991e6a/-473Wx593H-464251812-green-MODEL.jpg" class="image">
+                              <p class="heads1">Shaily</p>
+          
+          
+                              <div class="justify-content-center">
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image1">
+                                  <p1>981</p1>
+                              
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image2">
+                                  <p1 class="pp">1499</p1>
+          
+                              </div>
+          
+                              <div class="justify justify-content-start">
+                                  <button class="bt">Add to whishlist <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart icon21" viewBox="0 0 16 16">
+                                  <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                                  </svg></button>
+                                  <button class="bt">Add to bag    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag icon22" viewBox="0 0 16 16">
+                                  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                                  </svg>  </button>
+          
+                              </div>
+                          </div>
+  
+  
+  
+                          <div class="card">
+                              <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/8/tr:w-270,/5839cdcTI3036_1.jpg?rnd=20200526195200" class="image">
+                              <p class="heads1">Tikhi lmli</p>
+          
+                              <div class="justify-content-center">
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image1">
+                                  <p1>1791</p1>
+                              
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image2">
+                                  <p1 class="pp">3,196</p1>
+          
+                              </div>
+          
+                              <div class="justify justify-content-start">
+                                  <button class="bt">Add to whishlist <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart icon21" viewBox="0 0 16 16">
+                                  <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                                  </svg></button>
+                                  <button class="bt">Add to bag    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag icon22" viewBox="0 0 16 16">
+                                  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                                  </svg>  </button>
+          
+                              </div>
+                  
+  
+                          </div>
+  
+                          <div class="card">
+                              <img src="https://cdn.shopaccino.com/gayraa/products/editd-989846_m.png?v=503" class="image">
+                              <p class="heads1">Gayra</p>
+          
+                              <div class="justify-content-center">
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image1">
+                                  <p1>2,275</p1>
+                              
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image2">
+                                  <p1 class="pp">3,499</p1>
+          
+                              </div>
+          
+                              <div class="justify justify-content-start">
+                                  <button class="bt">Add to whishlist <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart icon21" viewBox="0 0 16 16">
+                                  <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                                  </svg></button>
+                                  <button class="bt">Add to bag    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag icon22" viewBox="0 0 16 16">
+                                  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                                  </svg>  </button>
+          
+                              </div>
+                          
+          
+                          </div>
+  
+  
+  
+          
+                          <div class="card">
+                              <img src="https://assets.myntassets.com/assets/images/22775502/2023/4/14/1fca40c7-a91c-4273-8369-df8f70dfc09a1681464312547KurtaSets1.jpg" class="image">
+                              <p class="heads1">Gillori</p>
+                  
+                              <div class="justify-content-center">
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image1">
+                                  <p1>2,970</p1>
+                              
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image2">
+                                  <p1 class="pp">3,299</p1>
+                  
+                              </div>
+                  
+                              <div class="justify justify-content-start">
+                                  <button class="bt">Add to whishlist <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart icon21" viewBox="0 0 16 16">
+                                  <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                                  </svg></button>
+                                  <button class="bt">Add to bag    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag icon22" viewBox="0 0 16 16">
+                                  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                                  </svg>  </button>
+                  
+                              </div>
+                          </div>
+  
+                      </div>
+  
+  
+                      </br>
+                      </br>
+  
+  
+                      <div class="d-flex flex-row justify justify-content-center">
+                          <div class="card">
+                              <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/1/tr:w-270,/a190fe3SS23-LN-W-DR-261_1.jpg?rnd=20200526195200" class="image">
+                              <p class="heads1">Lehan</p>
+          
+                              <div class="justify-content-center">
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image1">
+                                  <p1>2,999</p1>
+                              
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image2">
+                                  <p1 class="pp">3,599</p1>
+          
+                              </div>
+          
+                              <div class="justify justify-content-start">
+                                  <button class="bt">Add to whishlist <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart icon21" viewBox="0 0 16 16">
+                                      <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                                      </svg>
+                                  </button>
+                                  <button class="bt">Add to bag    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag icon22" viewBox="0 0 16 16">
+                                      <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                                      </svg>  
+                                  </button>
+                              </div>
+                      
+                          </div>
+  
+                          <div class="card">
+                              <img src="https://stylum.in/cdn/shop/files/KPORANGEOREO_6.jpg?v=1694775194&width=533" class="image">
+                              <p class="heads1">Stylum</p>
+          
+                              <div class="justify-content-center">
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image1">
+                                  <p1>822</p1>
+                              
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image2">
+                                  <p1 class="pp">1599</p1>,
+          
+                              </div>
+          
+                              <div class="justify justify-content-start">
+                                  <button class="bt">Add to whishlist <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart icon21" viewBox="0 0 16 16">
+                                  <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                                  </svg></button>
+                                  <button class="bt">Add to bag    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag icon22" viewBox="0 0 16 16">
+                                  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                                  </svg>  </button>
+          
+                              </div>
+                  
+  
+                          </div>
+  
+                  
+  
+  
+                          <div class="card">
+                              <img src="https://www.ahalyaa.com/cdn/shop/products/AHKUSH-COMBO-477-FF_1_7aec9d01-d1f9-4330-9ebf-9ec61d6a9fa9.jpg?v=1680615898" class="image">
+                              <p class="heads1">Ahalyaa</p>
+          
+                              <div class="justify-content-center">
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image1">
+                                  <p1>3,199</p1>
+                              
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image2">
+                                  <p1 class="pp">3,999</p1>
+          
+                              </div>
+          
+                              <div class="justify justify-content-start">
+                                  <button class="bt">Add to whishlist <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart icon21" viewBox="0 0 16 16">
+                                  <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                                  </svg></button>
+                                  <button class="bt">Add to bag    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag icon22" viewBox="0 0 16 16">
+                                  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                                  </svg>  
+                                  </button>
+          
+                              </div>
+                          </div>
+          
+  
+  
+  
+  
+                          <div class="card">
+                              <img src="https://kicaactive.com/cdn/shop/files/KICA_19-10-23_19152_800x.jpg?v=1703824217" class="image">
+                              <p class="heads1">Kika</p>
+          
+                              <div class="justify-content-center">
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image1">
+                                  <p1>999</p1>
+                              
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image2">
+                                  <p1 class="pp">1,399</p1>
+          
+                              </div>
+          
+                              <div class="justify justify-content-start">
+                                  <button class="bt">Add to whishlist <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart icon21" viewBox="0 0 16 16">
+                                  <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                                  </svg></button>
+                                  <button class="bt">Add to bag    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag icon22" viewBox="0 0 16 16">
+                                  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                                  </svg>  </button>
+          
+                              </div>
+                          </div>
+  
+  
+                          <div class="card">
+                              <img src="https://assets.ajio.com/medias/sys_master/root/20230810/oRY0/64d4ceeba9b42d15c9a07c38/-473Wx593H-466153221-mustard-MODEL.jpg" class="image">
+                              <p class="heads1">Amiras</p>
+                  
+                              <div class="justify-content-center">
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image1">
+                                  <p1>1,485</p1>
+                              
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image2">
+                                  <p1 class="pp">4,599</p1>
+                  
+                              </div>
+                  
+                              <div class="justify justify-content-start">
+                                  <button class="bt">Add to whishlist <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart icon21" viewBox="0 0 16 16">
+                                  <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                                  </svg></button>
+                                  <button class="bt">Add to bag    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag icon22" viewBox="0 0 16 16">
+                                  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                                  </svg>  </button>
+                  
+                              </div>
+                          </div>
+                      </div>
+
+
+
+                    </br>
+                </br>
+
+
+                <div class="d-flex flex-row justify justify-content-center">
+                    <div class="card">
+                        <img src="https://www.ordinaree.com/cdn/shop/products/DSC_0591.jpg?v=1653888855&width={width}" class="image">
+                        <p class="heads1">Ordinaree</p>
+    
+                        <div class="justify-content-center">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image1">
+                            <p1>2,999</p1>
+                        
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image2">
+                            <p1 class="pp">3,599</p1>
+    
+                        </div>
+    
+                        <div class="justify justify-content-start">
+                            <button class="bt">Add to whishlist <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart icon21" viewBox="0 0 16 16">
+                                <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                                </svg>
+                            </button>
+                            <button class="bt">Add to bag    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag icon22" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                                </svg>  
+                            </button>
+                        </div>
+                
+                    </div>
+
+                    <div class="card">
+                        <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/6/1653b77NK_NYRIX00001395_2.jpg?rnd=20200526195200&tr=w-512" class="image">
+                        <p class="heads1">Nyri</p>
+    
+                        <div class="justify-content-center">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image1">
+                            <p1>822</p1>
+                        
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image2">
+                            <p1 class="pp">1599</p1>,
+    
+                        </div>
+    
+                        <div class="justify justify-content-start">
+                            <button class="bt">Add to whishlist <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart icon21" viewBox="0 0 16 16">
+                            <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                            </svg></button>
+                            <button class="bt">Add to bag    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag icon22" viewBox="0 0 16 16">
+                            <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                            </svg>  </button>
+    
+                        </div>
+            
+
+                    </div>
+
+            
+
+
+                    <div class="card">
+                        <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/1/tr:w-270,/21986ecMCAW21D15-01-271_6.jpg?rnd=20200526195200" class="image">
+                        <p class="heads1">Misschase</p>
+    
+                        <div class="justify-content-center">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image1">
+                            <p1>3,199</p1>
+                        
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image2">
+                            <p1 class="pp">3,999</p1>
+    
+                        </div>
+    
+                        <div class="justify justify-content-start">
+                            <button class="bt">Add to whishlist <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart icon21" viewBox="0 0 16 16">
+                            <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                            </svg></button>
+                            <button class="bt">Add to bag    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag icon22" viewBox="0 0 16 16">
+                            <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                            </svg>  
+                            </button>
+    
+                        </div>
+                    </div>
+    
+
+
+
+
+                    <div class="card">
+                        <img src="https://odette.in/cdn/shop/files/AN2301_1.jpg?v=1700743257" class="image">
+                        <p class="heads1">Odette</p>
+    
+                        <div class="justify-content-center">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image1">
+                            <p1>999</p1>
+                        
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image2">
+                            <p1 class="pp">1,399</p1>
+    
+                        </div>
+    
+                        <div class="justify justify-content-start">
+                            <button class="bt">Add to whishlist <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart icon21" viewBox="0 0 16 16">
+                            <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                            </svg></button>
+                            <button class="bt">Add to bag    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag icon22" viewBox="0 0 16 16">
+                            <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                            </svg>  </button>
+    
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/7/3718ba4KTTLADIESJEANS2455_AshGray_1.jpg?rnd=20200526195200&tr=w-512" class="image">
+                        <p class="heads1">Kotty</p>
+            
+                        <div class="justify-content-center">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image1">
+                            <p1>1,485</p1>
+                        
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image2">
+                            <p1 class="pp">4,599</p1>
+            
+                        </div>
+            
+                        <div class="justify justify-content-start">
+                            <button class="bt">Add to whishlist <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart icon21" viewBox="0 0 16 16">
+                            <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                            </svg></button>
+                            <button class="bt">Add to bag    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag icon22" viewBox="0 0 16 16">
+                            <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                            </svg>  </button>
+            
+                        </div>
+                    </div>
+                </div>
+  
+        
+  
+                      <button class="btn btn-dark" onclick="display('sectionHome')">
+                      back
+                      </button>
+  
+          </div>
+    </div>
+
+
+
+    <div id="sectionFavouritePlaces1">
+
+
+        <div class="cg">
+            <div class="cgs"></div>
+  
+                      <div class="bg1">
+                          <img src="https://cdn.picodi.com/in/shop/thumb_300/nykaa-fashion_646_001_1.png" class="img1">
+                          <button class="btn1" onclick="display('sectionFavouritePlaces')" >Women</button>
+                          <button class="btn1"onclick="display('sectionFavouritePlaces1')">Men</button>
+                          <button class="btn1"onclick="display('sectionFavouritePlaces2')">Kids</button>
+                          <button class="btn1">Home</button>
+                          <button class="btn1">Tech</button>
+                          <button class="btn1">All Brands</button>
+                          <button class="btn1"> More</button>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search icon1" viewBox="0 0 16 16">
+                              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                          </svg>
+                          <input type="search" placeholder="Search for products,styles,branch"/>
+                  
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person icon2" viewBox="0 0 16 16">
+                          <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+                          </svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart icon2" viewBox="0 0 16 16">
+                          <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                          </svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag icon2" viewBox="0 0 16 16">
+                          <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                          </svg>
+                      </div>
+  
+                      </br>
+                      </br>
+  
+  
+  
+                      <div class="d-flex flex-row justify-content-center">
+                          <div class="card">
+                              <img src="https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/10456354/2019/8/22/d56e75f6-f1a7-4fdd-b430-51befb36f88d1566454760527-Campus-Sutra-Men-Colourblocked-Casual-Spread-Shirt-290156645-1.jpg" class="image">
+                              <p class="heads1">campus sutra</p>
+          
+                              <div class="justify-content-center">
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image1">
+                                  <p1>6800</p1>
+                              
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image2">
+                                  <p1 class="pp">8499</p1>
+          
+                              </div>
+      
+                              <div class="justify justify-content-start">
+                                  <button class="bt">Add to whishlist <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart icon21" viewBox="0 0 16 16">
+                                      <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                                      </svg></button>
+                                  <button class="bt">Add to bag    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag icon22" viewBox="0 0 16 16">
+                                      <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                                      </svg>  
+                                  </button>
+      
+                              </div>
+  
+                          </div>
+  
+  
+                          <div class="card">
+                              <img src="https://img.tatacliq.com/images/i11/437Wx649H/MP000000017470403_437Wx649H_202305072014111.jpeg" class="image">
+                              <p class="heads1">styli</p>
+          
+          
+                              <div class="justify-content-center">
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image1">
+                                  <p1>981</p1>
+                              
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image2">
+                                  <p1 class="pp">1499</p1>
+          
+                              </div>
+          
+                              <div class="justify justify-content-start">
+                                  <button class="bt">Add to whishlist <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart icon21" viewBox="0 0 16 16">
+                                  <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                                  </svg></button>
+                                  <button class="bt">Add to bag    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag icon22" viewBox="0 0 16 16">
+                                  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                                  </svg>  </button>
+          
+                              </div>
+                          </div>
+  
+  
+  
+                          <div class="card">
+                              <img src="https://rukminim2.flixcart.com/image/850/1250/xif0q/t-shirt/3/y/r/s-bul-24bds-be2-bullmer-original-imagxgk4rbnsbagh.jpeg?q=20&crop=false" class="image">
+                              <p class="heads1">Bullmer</p>
+          
+                              <div class="justify-content-center">
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image1">
+                                  <p1>1791</p1>
+                              
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image2">
+                                  <p1 class="pp">3,196</p1>
+          
+                              </div>
+          
+                              <div class="justify justify-content-start">
+                                  <button class="bt">Add to whishlist <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart icon21" viewBox="0 0 16 16">
+                                  <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                                  </svg></button>
+                                  <button class="bt">Add to bag    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag icon22" viewBox="0 0 16 16">
+                                  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                                  </svg>  </button>
+          
+                              </div>
+                  
+  
+                          </div>
+  
+                          <div class="card">
+                              <img src="https://bigsaree.com/wp-content/uploads/2022/11/allen-solly-men-turquoise-blue-polo-collar-pure-cotton-t-shirt.jpg" class="image">
+                              <p class="heads1">Allen solly</p>
+          
+                              <div class="justify-content-center">
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image1">
+                                  <p1>2,275</p1>
+                              
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image2">
+                                  <p1 class="pp">3,499</p1>
+          
+                              </div>
+          
+                              <div class="justify justify-content-start">
+                                  <button class="bt">Add to whishlist <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart icon21" viewBox="0 0 16 16">
+                                  <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                                  </svg></button>
+                                  <button class="bt">Add to bag    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag icon22" viewBox="0 0 16 16">
+                                  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                                  </svg>  </button>
+          
+                              </div>
+                          
+          
+                          </div>
+  
+  
+  
+          
+                          <div class="card">
+                              <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/a/ca4a096NF_THECB00024829_1.jpg?rnd=20200526195200&tr=w-512" class="image">
+                              <p class="heads1">Souled store</p>
+                  
+                              <div class="justify-content-center">
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image1">
+                                  <p1>2,970</p1>
+                              
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image2">
+                                  <p1 class="pp">3,299</p1>
+                  
+                              </div>
+                  
+                              <div class="justify justify-content-start">
+                                  <button class="bt">Add to whishlist <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart icon21" viewBox="0 0 16 16">
+                                  <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                                  </svg></button>
+                                  <button class="bt">Add to bag    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag icon22" viewBox="0 0 16 16">
+                                  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                                  </svg>  </button>
+                  
+                              </div>
+                          </div>
+  
+                      </div>
+  
+  
+                      </br>
+                      </br>
+  
+  
+                      <div class="d-flex flex-row justify justify-content-center">
+                          <div class="card">
+                              <img src="https://m.media-amazon.com/images/I/61GM-Gkf2kL._AC_UY1100_.jpg" class="image">
+                              <p class="heads1">American eagle</p>
+          
+                              <div class="justify-content-center">
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image1">
+                                  <p1>2,999</p1>
+                              
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image2">
+                                  <p1 class="pp">3,599</p1>
+          
+                              </div>
+          
+                              <div class="justify justify-content-start">
+                                  <button class="bt">Add to whishlist <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart icon21" viewBox="0 0 16 16">
+                                      <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                                      </svg>
+                                  </button>
+                                  <button class="bt">Add to bag    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag icon22" viewBox="0 0 16 16">
+                                      <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                                      </svg>  
+                                  </button>
+                              </div>
+                      
+                          </div>
+  
+                          <div class="card">
+                              <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/1/f124c21CT05231582_1.jpg?rnd=20200526195200&tr=w-512" class="image">
+                              <p class="heads1">Rigo</p>
+          
+                              <div class="justify-content-center">
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image1">
+                                  <p1>822</p1>
+                              
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image2">
+                                  <p1 class="pp">1599</p1>,
+          
+                              </div>
+          
+                              <div class="justify justify-content-start">
+                                  <button class="bt">Add to whishlist <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart icon21" viewBox="0 0 16 16">
+                                  <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                                  </svg></button>
+                                  <button class="bt">Add to bag    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag icon22" viewBox="0 0 16 16">
+                                  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                                  </svg>  </button>
+          
+                              </div>
+                  
+  
+                          </div>
+  
+                  
+  
+  
+                          <div class="card">
+                              <img src="https://www.jiomart.com/images/product/original/rvhulsgnbh/puma-men-s-radcliff-puma-black-sports-running-shoe-product-images-rvhulsgnbh-0-202210212016.jpg?im=Resize=(1000,1000)" class="image">
+                              <p class="heads1">Puma</p>
+          
+                              <div class="justify-content-center">
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image1">
+                                  <p1>3,199</p1>
+                              
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image2">
+                                  <p1 class="pp">3,999</p1>
+          
+                              </div>
+          
+                              <div class="justify justify-content-start">
+                                  <button class="bt">Add to whishlist <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart icon21" viewBox="0 0 16 16">
+                                  <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                                  </svg></button>
+                                  <button class="bt">Add to bag    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag icon22" viewBox="0 0 16 16">
+                                  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                                  </svg>  
+                                  </button>
+          
+                              </div>
+                          </div>
+          
+  
+  
+  
+  
+                          <div class="card">
+                              <img src="https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/27367982/2024/5/6/ab619669-9a33-46e9-9d66-4205e3bb1d661714997092309-Levis-Men-Jeans-921714997091609-1.jpg" class="image">
+                              <p class="heads1">Livi's</p>
+          
+                              <div class="justify-content-center">
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image1">
+                                  <p1>999</p1>
+                              
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image2">
+                                  <p1 class="pp">1,399</p1>
+          
+                              </div>
+          
+                              <div class="justify justify-content-start">
+                                  <button class="bt">Add to whishlist <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart icon21" viewBox="0 0 16 16">
+                                  <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                                  </svg></button>
+                                  <button class="bt">Add to bag    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag icon22" viewBox="0 0 16 16">
+                                  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                                  </svg>  </button>
+          
+                              </div>
+                          </div>
+  
+  
+                          <div class="card">
+                              <img src="https://freakins.com/cdn/shop/files/FreakinsMenReshoot-03282.jpg?v=1692292038&width=1333" class="image">
+                              <p class="heads1">Frekin's</p>
+                  
+                              <div class="justify-content-center">
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image1">
+                                  <p1>1,485</p1>
+                              
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image2">
+                                  <p1 class="pp">4,599</p1>
+                  
+                              </div>
+                  
+                              <div class="justify justify-content-start">
+                                  <button class="bt">Add to whishlist <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart icon21" viewBox="0 0 16 16">
+                                  <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                                  </svg></button>
+                                  <button class="bt">Add to bag    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag icon22" viewBox="0 0 16 16">
+                                  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                                  </svg>  </button>
+                  
+                              </div>
+                          </div>
+                      </div>
+        
+  
+                      <button class="btn btn-dark" onclick="display('sectionHome')">
+                      back
+                      </button>
+  
+          </div>
+    </div>
+
+
+
+    <div id="sectionFavouritePlaces2">
+
+
+        <div class="cg">
+            <div class="cgs"></div>
+  
+                      <div class="bg1">
+                          <img src="https://cdn.picodi.com/in/shop/thumb_300/nykaa-fashion_646_001_1.png" class="img1">
+                          <button class="btn1" onclick="display('sectionFavouritePlaces')" >Women</button>
+                          <button class="btn1" onclick="display('sectionFavouritePlaces1')" >Men</button>
+                          <button class="btn1"  onclick="display('sectionFavouritePlaces2')">Kids</button>
+                          <button class="btn1">Home</button>
+                          <button class="btn1">Tech</button>
+                          <button class="btn1">All Brands</button>
+                          <button class="btn1"> More</button>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search icon1" viewBox="0 0 16 16">
+                              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                          </svg>
+                          <input type="search" placeholder="Search for products,styles,branch"/>
+                  
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person icon2" viewBox="0 0 16 16">
+                          <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+                          </svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart icon2" viewBox="0 0 16 16">
+                          <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                          </svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag icon2" viewBox="0 0 16 16">
+                          <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                          </svg>
+                      </div>
+  
+                      </br>
+                      </br>
+  
+  
+  
+                      <div class="d-flex flex-row justify-content-center">
+                          <div class="card">
+                              <img src="https://cdn.fcglcdn.com/brainbees/images/products/300x364/16052300a.webp" class="image">
+                              <p class="heads1">cherry&jerry</p>
+          
+                              <div class="justify-content-center">
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image1">
+                                  <p1>6800</p1>
+                              
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image2">
+                                  <p1 class="pp">8499</p1>
+          
+                              </div>
+      
+                              <div class="justify justify-content-start">
+                                  <button class="bt">Add to whishlist <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart icon21" viewBox="0 0 16 16">
+                                      <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                                      </svg></button>
+                                  <button class="bt">Add to bag    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag icon22" viewBox="0 0 16 16">
+                                      <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                                      </svg>  
+                                  </button>
+      
+                              </div>
+  
+                          </div>
+  
+  
+                          <div class="card">
+                              <img src="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/9/6903e00LC-SDRS-3_1.jpg?rnd=20200526195200&tr=w-512" class="image">
+                              <p class="heads1">little carrot</p>
+          
+          
+                              <div class="justify-content-center">
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image1">
+                                  <p1>981</p1>
+                              
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image2">
+                                  <p1 class="pp">1499</p1>
+          
+                              </div>
+          
+                              <div class="justify justify-content-start">
+                                  <button class="bt">Add to whishlist <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart icon21" viewBox="0 0 16 16">
+                                  <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                                  </svg></button>
+                                  <button class="bt">Add to bag    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag icon22" viewBox="0 0 16 16">
+                                  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                                  </svg>  </button>
+          
+                              </div>
+                          </div>
+  
+  
+  
+                          <div class="card">
+                              <img src="https://absolutelydesi.com/wp-content/uploads/2023/01/pspeaches-Kids-Boys-Yellow-Printed-Angrakha-Pure-Cotton-Kurta-with-Trousers-2.jpg" class="image">
+                              <p class="heads1">Pspeaches</p>
+          
+                              <div class="justify-content-center">
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image1">
+                                  <p1>1791</p1>
+                              
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image2">
+                                  <p1 class="pp">3,196</p1>
+          
+                              </div>
+          
+                              <div class="justify justify-content-start">
+                                  <button class="bt">Add to whishlist <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart icon21" viewBox="0 0 16 16">
+                                  <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                                  </svg></button>
+                                  <button class="bt">Add to bag    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag icon22" viewBox="0 0 16 16">
+                                  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                                  </svg>  </button>
+          
+                              </div>
+                  
+  
+                          </div>
+  
+                          <div class="card">
+                              <img src="https://rukminim2.flixcart.com/image/750/900/xif0q/sweatshirt/h/q/b/7-8-years-hft-s22hh2-f2-h3-hellcat-original-imagg3etkzptdvau.jpeg?q=20&crop=false" class="image">
+                              <p class="heads1">Hellcat</p>
+          
+                              <div class="justify-content-center">
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image1">
+                                  <p1>2,275</p1>
+                              
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image2">
+                                  <p1 class="pp">3,499</p1>
+          
+                              </div>
+          
+                              <div class="justify justify-content-start">
+                                  <button class="bt">Add to whishlist <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart icon21" viewBox="0 0 16 16">
+                                  <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                                  </svg></button>
+                                  <button class="bt">Add to bag    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag icon22" viewBox="0 0 16 16">
+                                  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                                  </svg>  </button>
+          
+                              </div>
+                          
+          
+                          </div>
+  
+  
+  
+          
+                          <div class="card">
+                              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTaoe5O9B7udjrj8AoJgU0C1hyCMbGcidW7g&s" class="image">
+                              <p class="heads1">Ekanta</p>
+                  
+                              <div class="justify-content-center">
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image1">
+                                  <p1>2,970</p1>
+                              
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image2">
+                                  <p1 class="pp">3,299</p1>
+                  
+                              </div>
+                  
+                              <div class="justify justify-content-start">
+                                  <button class="bt">Add to whishlist <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart icon21" viewBox="0 0 16 16">
+                                  <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                                  </svg></button>
+                                  <button class="bt">Add to bag    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag icon22" viewBox="0 0 16 16">
+                                  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                                  </svg>  </button>
+                  
+                              </div>
+                          </div>
+  
+                      </div>
+  
+  
+                      </br>
+                      </br>
+  
+  
+                      <div class="d-flex flex-row justify justify-content-center">
+                          <div class="card">
+                              <img src="https://pinkchick.in/cdn/shop/products/pcf21-1.jpg?v=1639385172" class="image">
+                              <p class="heads1">Pink chik</p>
+          
+                              <div class="justify-content-center">
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image1">
+                                  <p1>2,999</p1>
+                              
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image2">
+                                  <p1 class="pp">3,599</p1>
+          
+                              </div>
+          
+                              <div class="justify justify-content-start">
+                                  <button class="bt">Add to whishlist <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart icon21" viewBox="0 0 16 16">
+                                      <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                                      </svg>
+                                  </button>
+                                  <button class="bt">Add to bag    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag icon22" viewBox="0 0 16 16">
+                                      <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                                      </svg>  
+                                  </button>
+                              </div>
+                      
+                          </div>
+  
+                          <div class="card">
+                              <img src="https://piccolokids.in/wp-content/uploads/2023/05/2-2-400x533.jpg" class="image">
+                              <p class="heads1">piccolo</p>
+          
+                              <div class="justify-content-center">
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image1">
+                                  <p1>822</p1>
+                              
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image2">
+                                  <p1 class="pp">1599</p1>,
+          
+                              </div>
+          
+                              <div class="justify justify-content-start">
+                                  <button class="bt">Add to whishlist <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart icon21" viewBox="0 0 16 16">
+                                  <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                                  </svg></button>
+                                  <button class="bt">Add to bag    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag icon22" viewBox="0 0 16 16">
+                                  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                                  </svg>  </button>
+          
+                              </div>
+                  
+  
+                          </div>
+  
+                  
+  
+  
+                          <div class="card">
+                              <img src="https://theponyandpeony.com/cdn/shop/products/DSC1555copy2.jpg?v=1669141051" class="image">
+                              <p class="heads1">Crimsoune club</p>
+          
+                              <div class="justify-content-center">
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image1">
+                                  <p1>3,199</p1>
+                              
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image2">
+                                  <p1 class="pp">3,999</p1>
+          
+                              </div>
+          
+                              <div class="justify justify-content-start">
+                                  <button class="bt">Add to whishlist <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart icon21" viewBox="0 0 16 16">
+                                  <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                                  </svg></button>
+                                  <button class="bt">Add to bag    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag icon22" viewBox="0 0 16 16">
+                                  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                                  </svg>  
+                                  </button>
+          
+                              </div>
+                          </div>
+          
+  
+  
+  
+  
+                          <div class="card">
+                              <img src="https://cdn.fcglcdn.com/brainbees/images/products/300x364/13890513a.webp" class="image">
+                              <p class="heads1">Titrit</p>
+          
+                              <div class="justify-content-center">
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image1">
+                                  <p1>999</p1>
+                              
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image2">
+                                  <p1 class="pp">1,399</p1>
+          
+                              </div>
+          
+                              <div class="justify justify-content-start">
+                                  <button class="bt">Add to whishlist <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart icon21" viewBox="0 0 16 16">
+                                  <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                                  </svg></button>
+                                  <button class="bt">Add to bag    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag icon22" viewBox="0 0 16 16">
+                                  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                                  </svg>  </button>
+          
+                              </div>
+                          </div>
+  
+  
+                          <div class="card">
+                              <img src="https://img.tatacliq.com/images/i15//437Wx649H/MP000000020601216_437Wx649H_202312281751011.jpeg" class="image">
+                              <p class="heads1">Monte carlo</p>
+                  
+                              <div class="justify-content-center">
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image1">
+                                  <p1>1,485</p1>
+                              
+                                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Indian_Rupee_symbol.svg/522px-Indian_Rupee_symbol.svg.png" class="image2">
+                                  <p1 class="pp">4,599</p1>
+                  
+                              </div>
+                  
+                              <div class="justify justify-content-start">
+                                  <button class="bt">Add to whishlist <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart icon21" viewBox="0 0 16 16">
+                                  <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"/>
+                                  </svg></button>
+                                  <button class="bt">Add to bag    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag icon22" viewBox="0 0 16 16">
+                                  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                                  </svg>  </button>
+                  
+                              </div>
+                          </div>
+                      </div>
+        
+  
+                      <button class="btn btn-dark" onclick="display('sectionHome')">
+                      back
+                      </button>
+  
+          </div>
+    </div>
+
+
+
+
+    
+   <script type="text/javascript" 
+   src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+  </body>
+</html>
